@@ -15,11 +15,6 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
             }
-        }
-        stage('Complte') {
-            steps {
-                echo 'job complete'
-            }
-        }    
+        }   
     }
 }
